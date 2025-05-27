@@ -11,5 +11,6 @@ import mission from "../assets/mission.jpg"
 import redhat from "../assets/redhat.png"
 import google from "../assets/google.png"
 import amazon from "../assets/amazon.png"
+import messi from "../assets/messi.jpg"
 
-export {bgvideo,blog,logo,aboutus,aboutusbg,aboutteam,vision,mission,values,redhat,google,amazon}
+export {bgvideo,blog,logo,aboutus,aboutusbg,aboutteam,vision,mission,values,redhat,google,amazon,messi}

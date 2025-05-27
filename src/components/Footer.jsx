@@ -3,23 +3,23 @@ import { logo } from '../assets/assets'
 
 const Footer = () => {
   return (
-    <footer className="bg-[#394A74] text-white py-10">
+    <footer className="bg-[#394A74]  text-white">
       <div className="max-w-7xl mx-auto px-6"> 
-        <div className="flex flex-col md:flex-row justify-between items-center mb-6">
+        <div className="mt-12  flex flex-col md:flex-row justify-between items-center mb-6">
 
-          <div className="flex items-center mb-4 md:mb-0">
+          <div className=" flex items-center mb-4 md:mb-0">
             <h2 className="text-4xl font-semibold text-white">Lzycrazy Market</h2>
           </div>
 
-          <div className="flex flex-col items-center gap-2 text-sm mb-4 md:mb-0">
-            <img src={logo} alt="logo" className="w-35" />
+          <div className="mt-8 flex flex-col items-center gap-2 text-sm mb-4 md:mb-0">
+            <img src={logo} alt="logo" className="w-40" />
             <div className="flex gap-4">
-              <span>Spain</span>
-              <span>India</span>
+              <span className='text-lg'>Bangladesh</span>
+              <span className='text-lg'>India</span>
+              <span className='text-lg'>Nepal</span>
             </div>
           </div>
-
-          {/* Language selector */}
+ 
           <select className="bg-white text-black px-4 py-2 rounded shadow mt-4 md:mt-0">
             <option>Select Language</option>
             <option>English</option>
@@ -28,9 +28,8 @@ const Footer = () => {
         </div>
 
         <hr className="border-gray-300 my-6" />
-
-        {/* Rest of your footer links with increased text size */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-base text-white">
+ 
+        <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 text-base text-white">
           <div className="space-y-2 flex flex-col">
             <a href="#" className="underline">About Us</a>
             <a href="#" className="underline">Features</a>
@@ -60,7 +59,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-[#2D3A5E] mt-10 text-center py-4 text-sm text-white">
+      <div className="bg-[#2D3A5E] mt-10 h-20 text-center py-7 text-base text-white">
         Lzycrazy Copyright © 2022, All Right Reserved
       </div>
     </footer>
